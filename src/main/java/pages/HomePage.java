@@ -15,7 +15,6 @@ public class HomePage extends BasePage {
 		try {
 			
 			clicarBotaoPorXpath("(//a[@href='#/dados'])[1]");
-//			getDriver().findElement(By.cssSelector("a[ng-href='#/dados']")).click();
 		}catch (Exception e) {
 			System.out.println("O link Dados não foi encontrado");
 		}
